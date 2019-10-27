@@ -9,3 +9,5 @@ source ~/.shellaliases
 source ~/.iterm2_shell_integration.`basename $SHELL`
 # Private/Proprietary shell aliases (not to be checked into the public repo) :)
 #source ~/Dropbox/Private/Boxes/osx/.shellaliases
+export PYTHONSTARTUP=~/.pythonrc
+if [ -e /Users/jose/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/jose/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
